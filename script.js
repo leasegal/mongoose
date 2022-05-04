@@ -16,7 +16,7 @@ async function find() {
   const findUser = { name: "Avi", age: 33 };
   const found = await User.findOne(findUser);
   console.log("Found user ?");
-  console.log(found);
+  console.log(`found:${found}`);
 }
 
 saveToDB();
